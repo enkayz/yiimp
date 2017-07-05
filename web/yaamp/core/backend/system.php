@@ -3,7 +3,7 @@
 function BackendDoBackup()
 {
 	$d = date('Y-m-d-H', time());
-	$filename = "/root/backup/yaamp-$d.sql";
+	$filename = "/home/yiimp/backup/yaamp-$d.sql";
 
 	if (is_readable("/usr/bin/xz")) {
 		$ziptool = "xz"; $filename .= ".xz";

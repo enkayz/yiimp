@@ -45,6 +45,7 @@ function yaamp_get_algos()
 		'skein',
 		'skein2',
 		'timetravel',
+		'tribus',
 		'vanilla',
 		'veltor',
 		'velvet',
@@ -220,6 +221,7 @@ function getAlgoPort($algo)
 		'velvet'	=> 6133,
 		'yescrypt'	=> 6233,
 		'bastion'	=> 6433,
+		'tribus'	=> 8688
 	);
 
 	global $configCustomPorts;

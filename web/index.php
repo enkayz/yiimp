@@ -1,6 +1,7 @@
 <?php
 
 //define('YII_DEBUG', true);
+ini_set("display_errors", "On");
 
 require_once('serverconfig.php');
 require_once('yaamp/defaultconfig.php');
